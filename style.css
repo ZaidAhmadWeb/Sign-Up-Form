@@ -44,10 +44,10 @@
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 50px;
+    font-size: 2.5em;
 }
 .sidebartext>img{
-    width: 100px;
+    width: 2.4em;
     margin-right: 10px;
 }
 
@@ -65,7 +65,7 @@
 
 .mainchild{
     box-sizing: border-box;
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: bolder;
     width: 100%;
     padding-left: 70px;
@@ -94,18 +94,18 @@
 
 .mainchild>.form>lable{
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     flex-direction: column;
     width: 90%;
-    gap: 10px;
-    margin-top: 40px;
+    gap: 8px;
+    margin-top: 20px;
 }
 
 .mainchild>form>lable>input{
     border: none;
-    height: 70px;
-    font-size: 40px;
+    height: 60px;
+    font-size: 25px;
     padding-left: 10px;
 }
 
