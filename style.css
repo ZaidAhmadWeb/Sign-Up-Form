@@ -4,7 +4,7 @@
 }
 
 :root{
-    --padding-horzental: 50px;
+    --padding-horzental: 40px;
     --button-color: white;
 }
 
@@ -39,7 +39,7 @@
     opacity: 50%;
     position: absolute;
     width: 100%;
-    height: 200px;
+    height: 3.7em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,12 +60,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 2em;
 }
 
 .mainchild{
     box-sizing: border-box;
-    font-size: 2.5em;
+    font-size: 1.62em;
     font-weight: bolder;
     width: 100%;
     padding-left: 70px;
@@ -74,16 +74,17 @@
 
 
 .child3{
-    height: 600px;
+    height: 17em;
     box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 0.5em;
+    margin-top: 10px;
 }
 
 .child3>h1{
-    font-size: 30px;
+    font-size: 0.9em;
     font-weight: bold;
 }
 
@@ -94,7 +95,7 @@
 
 .mainchild>.form>lable{
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 0.9em;
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -104,17 +105,17 @@
 
 .mainchild>form>lable>input{
     border: none;
-    height: 60px;
+    height: 50px;
     font-size: 25px;
     padding-left: 10px;
+    padding: 3px;
 }
 
 .input:focus{
     outline: none;
     border: blue 2px solid;
     border-radius: 10px;
-    height: 70px;
-    font-size: 40px;
+    font-size: 25px;
     padding-left: 10px;
     box-shadow: 3px 3px 8px 0px blue;
 }
@@ -131,16 +132,16 @@
 
 .button{
     background-color: #596D48;
-    padding: 15px;
+    padding: 10px;
     padding-left: var(--padding-horzental);
     padding-right: var(--padding-horzental);
     color: var(--button-color);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     border-radius: 10px;
 }
 
 .child5{
-    font-size: 30px;
+    font-size: 1.4em;
     font-weight: lighter;
 }
